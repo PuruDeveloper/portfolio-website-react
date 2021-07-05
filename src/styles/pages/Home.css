@@ -1,0 +1,19 @@
+.home {
+  margin: 20px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.home--first--text h1 {
+  font-size: 4rem;
+}
+
+.m1 {
+  margin: 1rem;
+}
