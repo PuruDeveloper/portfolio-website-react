@@ -1,8 +1,9 @@
 .home {
   margin: 20px;
+  color: #425d59;
 }
 
-.display-flex {
+.home--first {
   display: flex;
 }
 
@@ -10,10 +11,48 @@
   justify-content: space-around;
 }
 
-.home--first--text h1 {
+.home--first h1 {
   font-size: 4rem;
+}
+.home--first h2 {
+  font-size: 2rem;
+}
+.home--first h3 {
+  font-size: 1.5rem;
 }
 
 .m1 {
   margin: 1rem;
+}
+
+.work--details {
+  display: flex;
+}
+.work--details p {
+  margin-left: 5px;
+}
+
+.home--second i {
+  font-size: 4rem;
+}
+.home--second h1 {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .home--first {
+    display: block;
+  }
+  .home--first h1 {
+    font-size: 2.5rem;
+  }
+  .home--first h2 {
+    font-size: 1.5rem;
+  }
+  .home--first h3 {
+    font-size: 1rem;
+  }
+  .work--details {
+    display: block;
+  }
 }

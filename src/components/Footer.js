@@ -4,7 +4,17 @@ import "../styles/components/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <h3>Footer</h3>
+      <div>
+        <h3>
+          <a href="/">DEV PORTFOLIO</a>
+        </h3>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+      </div>
+      <div>
+        <h4>About Us</h4>
+      </div>
     </div>
   );
 }

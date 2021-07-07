@@ -1,22 +1,22 @@
 .navbar {
   position: relative;
+  display: flex;
 }
 .navbar ul {
-  display: flex;
   list-style: none;
   position: relative;
 }
 
-.navbar li a {
-  margin-left: 1rem;
+.navbar p a {
+  margin-right: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #425d59;
+  color: white;
 }
 
-.navbar li a:hover {
+.navbar p a:hover {
   position: relative;
+  color: #33dfc5;
   top: 0.5rem;
   text-decoration-line: underline;
-  text-transform: uppercase;
 }

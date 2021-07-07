@@ -1,9 +1,10 @@
 .App {
-  text-align: center;
   background: white;
   /* background: #c8e8e5;
   background: linear-gradient(0deg, #c8e8e5 0%, #c0c8fc 100%); */
   min-height: 100vh;
+  position: relative;
+  min-width: 100vw;
 }
 
 ul,
