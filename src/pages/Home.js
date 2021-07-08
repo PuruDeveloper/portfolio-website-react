@@ -39,18 +39,30 @@ function Home() {
         </div>
       </div>
       <div className="home--second">
-        <h1>All I have Learned</h1>
-        <div>
-          <i class="fab fa-html5"></i> HTML & CSS
+        <h1>All I have learned over the years</h1>
+        <div className="learnings">
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+          <div>HTML & CSS</div>
         </div>
         <div>
-          <i class="fab fa-react"></i> ReactJs
+          <div>
+            <i class="fab fa-react"></i>
+          </div>
+          <div>ReactJs</div>
         </div>
         <div>
-          <i class="fab fa-js"></i> JavaScript
+          <div>
+            <i class="fab fa-js"></i>
+          </div>
+          <div>JavaScript</div>
         </div>
         <div>
-          <i class="fab fa-github-square"></i> Github
+          <div>
+            <i class="fab fa-github-square"></i>
+          </div>
+          <div>Github</div>
         </div>
       </div>
     </div>
