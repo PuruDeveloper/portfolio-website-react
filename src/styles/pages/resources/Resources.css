@@ -1,0 +1,47 @@
+.resources {
+  color: #425d59;
+}
+
+.resource--heading {
+  background-color: #425d59;
+  color: white;
+  text-align: center;
+}
+
+.resource {
+  display: flex;
+  margin: 20px;
+  word-break: break-all;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+form > input {
+  max-width: 50px;
+  border: 3px solid #425d59;
+  border-radius: 8px;
+  margin-left: 16px;
+  outline: none;
+}
+.resource--code {
+  flex: 0.5;
+  padding: 10px;
+}
+.resource--output {
+  text-align: center;
+  flex: 0.5;
+}
+.resource--code:hover {
+  background-color: #ebebeb;
+}
+.resource--output:hover {
+  background-color: #ebebeb;
+}
+
+@media (max-width: 700px) {
+  .resource {
+    display: inline-block;
+  }
+}

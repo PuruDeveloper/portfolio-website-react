@@ -6,7 +6,12 @@
 .home--first {
   display: flex;
 }
-
+.home--first--text {
+  flex: 0.5;
+}
+.home--first--companies {
+  flex: 0.5;
+}
 .space-around {
   justify-content: space-around;
 }

@@ -9,6 +9,9 @@ function Navbar() {
         <Link to="/projects">Projects</Link>
       </p>
       <p className="navbar--item">
+        <Link to="/resources">Resources</Link>
+      </p>
+      <p className="navbar--item">
         <Link to="/about">About</Link>
       </p>
     </div>
