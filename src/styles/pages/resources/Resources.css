@@ -31,12 +31,17 @@ form > input {
 }
 .resource--output {
   text-align: center;
+  position: relative;
+  background-color: #ebebeb;
   flex: 0.5;
 }
-.resource--code:hover {
-  background-color: #ebebeb;
+.resource--output img {
+  background-color: white;
+  position: relative;
+  margin-top: 3rem;
+  border-radius: 9999px;
 }
-.resource--output:hover {
+.resource--code:hover {
   background-color: #ebebeb;
 }
 
