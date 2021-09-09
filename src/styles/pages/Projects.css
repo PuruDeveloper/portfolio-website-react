@@ -1,0 +1,24 @@
+.projects {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project > h3 {
+  font-size: 2rem;
+}
+
+.project > h3 > a {
+  text-decoration: none;
+  color: #425d59;
+}
+
+.project > img {
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .project > img {
+    width: 300px;
+  }
+}

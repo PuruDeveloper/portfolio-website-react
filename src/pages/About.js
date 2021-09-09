@@ -3,8 +3,9 @@ import "../styles/pages/About.css";
 
 function About() {
   return (
-    <div>
-      <h2>About Us</h2>
+    <div class="about">
+      <h2>About Me</h2>
+      <p>I don't know much about myself you see!😂✌</p>
     </div>
   );
 }

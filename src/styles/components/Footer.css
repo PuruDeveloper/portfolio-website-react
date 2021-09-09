@@ -7,6 +7,10 @@
   padding-bottom: 20px;
   padding-right: 10px;
   padding-left: 10px;
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .footer a {
