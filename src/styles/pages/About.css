@@ -1,0 +1,11 @@
+.about {
+  display: flex;
+  margin-top: 20px;
+  margin: 0 20px;
+  justify-content: space-around;
+}
+
+.about-image > img {
+  width: 250px;
+  border-radius: 20px;
+}
