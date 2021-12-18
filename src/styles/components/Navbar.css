@@ -1,22 +1,15 @@
 .navbar {
-  position: relative;
-  display: flex;
-}
-.navbar ul {
-  list-style: none;
-  position: relative;
-}
-
-.navbar p a {
-  margin-right: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
   color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
-
-.navbar p a:hover {
-  position: relative;
-  color: #33dfc5;
-  top: 0.5rem;
-  text-decoration-line: underline;
-}
+/* 
+a {
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+} */
