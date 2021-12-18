@@ -1,11 +1,11 @@
 import "./styles/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Projects from "./pages/Projects";
-import Resources from "./pages/resources/Resources";
-import About from "./pages/About";
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
       </Router>
     </div>
   );

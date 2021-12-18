@@ -1,26 +1,68 @@
 import React from "react";
-import auctionimage from "./bidding-website-image.png";
-import frontendimage from "./front-end-test-image.png";
 import "../styles/pages/Projects.css";
+import project1 from "../images/projects/project-1.png";
 
 function Projects() {
   return (
     <div className="projects">
-      <div class="project">
-        <h3>
-          <a href="https://ibid-purushottam.web.app/" target="_blank">
-            Bidding Website
-          </a>
-        </h3>
-        <img src={auctionimage} alt="auction-website-image" />
-      </div>
-      <div class="project">
-        <h3>
-          <a href="https://frontend-test-12.herokuapp.com/" target="_blank">
-            Frontend-test-page
-          </a>
-        </h3>
-        <img src={frontendimage} alt="front-test-image" />
+      <h1 className="projects-heading">Some of my projects</h1>
+      <div className="projects-container">
+        <div className="project-card">
+          <img className="project-img" src={project1} alt="Project 1" />
+          <div>
+            <div className="project-content">
+              <h1 className="project-title">Project 1</h1>
+              <p className="project-info">lorem uabd</p>
+            </div>
+            <div className="project-btn">
+              <a href="" target="_blank">
+                <button>Github Repo</button>
+              </a>
+
+              <a href="http://puruchatapp.herokuapp.com/" target="_blank">
+                <button>See Live</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img className="project-img" src={project1} alt="Project 1" />
+          <div>
+            <div className="project-content">
+              <h1 className="project-title">Project 2</h1>
+              <p className="project-info">lorem uabd</p>
+            </div>
+            <div className="project-btn">
+              <a href="" target="_blank">
+                <button>Github Repo</button>
+              </a>
+
+              <a href="http://puruchatapp.herokuapp.com/" target="_blank">
+                <button>See Live</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img className="project-img" src={project1} alt="Project 1" />
+          <div>
+            <div className="project-content">
+              <h1 className="project-title">Project 3</h1>
+              <p className="project-info">lorem uabd</p>
+            </div>
+            <div className="project-btn">
+              <a href="" target="_blank">
+                <button>Github Repo</button>
+              </a>
+
+              <a href="http://puruchatapp.herokuapp.com/" target="_blank">
+                <button>See Live</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

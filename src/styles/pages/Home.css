@@ -11,9 +11,12 @@
   color: #fff;
   font-size: 120px;
   opacity: 0.4;
+  z-index: 9999;
 }
 
 .profile-image {
   width: 300px;
   border-radius: 160px;
+
+  z-index: 2;
 }

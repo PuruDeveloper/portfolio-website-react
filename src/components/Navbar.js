@@ -17,17 +17,17 @@ function Navbar() {
       </div>
       <div>
         <h2>
-          <a>Skills</a>
+          <a href="/skills">Skills</a>
         </h2>
       </div>
       <div>
         <h2>
-          <a>About</a>
+          <a href="/about">About</a>
         </h2>
       </div>
       <div>
         <h2>
-          <a>Contact</a>
+          <a href="/contact">Contact</a>
         </h2>
       </div>
     </div>
