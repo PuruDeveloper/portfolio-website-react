@@ -17,7 +17,7 @@ function Contact() {
           href="https://www.linkedin.com/in/purushottam-mishra-074383191/"
           target="_blank"
         >
-          LinkedIn profile
+          LinkedIn profile.
         </a>
       </h3>
     </div>
