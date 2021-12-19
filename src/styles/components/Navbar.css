@@ -14,3 +14,36 @@ a {
   font-size: 20px;
   cursor: pointer;
 } */
+button {
+  opacity: 0.5;
+  cursor: pointer;
+  display: none;
+}
+i {
+  opacity: 0.5;
+}
+.menu {
+  display: flex;
+}
+
+.navbar-menubar {
+  opacity: 0.5;
+  display: none;
+}
+
+@media (max-width: 650px) {
+  button {
+    display: flex;
+  }
+  .navbar {
+    display: block;
+    padding-left: 20px;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+  .hideMenu {
+    display: none;
+  }
+}

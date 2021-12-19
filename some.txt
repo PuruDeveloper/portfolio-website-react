@@ -1,0 +1,26 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WriteIt</title>
+  </head>
+  <body>
+    <div class="login">
+      <form class="login-form">
+        <label class="labels">Sub Domain Name</label>
+        <input
+          type="text"
+          placeholder="Enter your domain Man!"
+          id="login-form__subdomain"
+        />
+        <label class="labels">Pa**w**d</label>
+        <input type="text" placeholder="Its secret" id="login-form__password" />
+        <button type="submit" id="login-form__button">Submit</button>
+      </form>
+    </div>
+    <script src="client.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+  </body>
+</html> -->
