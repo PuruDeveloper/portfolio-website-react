@@ -19,13 +19,13 @@ function Navbar() {
           showMenu === undefined || showMenu === false ? "showMenu" : "hideMenu"
         }
       >
-        <button onClick={(e) => changeMenu(e)}>
+        <button className="nav-button" onClick={(e) => changeMenu(e)}>
           <i class="fas fa-bars fa-2x"></i>
         </button>
       </div>
 
       <div className={showMenu === true ? "showMenu" : "hideMenu"}>
-        <button onClick={(e) => changeMenu(e)}>
+        <button className="nav-button" onClick={(e) => changeMenu(e)}>
           <i class="fas fa-times fa-2x"></i>
         </button>
       </div>

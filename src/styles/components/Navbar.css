@@ -14,7 +14,7 @@ a {
   font-size: 20px;
   cursor: pointer;
 } */
-button {
+.nav-button {
   opacity: 0.5;
   cursor: pointer;
   display: none;
@@ -32,7 +32,7 @@ i {
 }
 
 @media (max-width: 650px) {
-  button {
+  .nav-button {
     display: flex;
   }
   .navbar {

@@ -27,3 +27,9 @@
 .skill-card > h2 {
   opacity: 0.1;
 }
+
+@media (max-width: 500px) {
+  .fa-7x {
+    font-size: 5em;
+  }
+}
