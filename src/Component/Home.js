@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home-top">
-        <h1>P</h1>
+        <h1>PM</h1>
       </div>
 
       <div className="home-body">

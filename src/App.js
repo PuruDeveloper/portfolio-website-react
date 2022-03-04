@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Component/Home";
 import About from "./Component/About";
 import Projects from "./Component/Projects";
+import Experience from "./Component/Experience";
+import Skills from "./Component/Skills";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Experience />
+      <Skills />
     </div>
   );
 }

@@ -11,3 +11,15 @@
 a {
   color: #cf2e2e;
 }
+
+@media (max-width: 500px) {
+  .about {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 470px) {
+  .about {
+    margin: 0 auto;
+  }
+}

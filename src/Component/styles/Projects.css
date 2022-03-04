@@ -96,10 +96,22 @@
     min-height: 200px;
   }
   .project-img {
-    width: 300px;
+    width: 250px;
     rotate: calc(90);
   }
   .project-info {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 470px) {
+  .projects {
+    margin: 0 auto;
   }
 }

@@ -46,3 +46,45 @@
   padding: 20px;
   cursor: pointer;
 }
+
+.home-button > button:hover {
+  border: 2px solid white;
+  transition: color 0.3s;
+}
+
+@media (max-width: 1000px) {
+  .home-body {
+    display: inline-block;
+  }
+  .home-image > img {
+    width: 200px;
+    position: relative;
+    top: 5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .big-font {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 470px) {
+  .home {
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .home-top {
+    margin-right: auto;
+    font-size: 1rem;
+  }
+  .big-font {
+    font-size: 1.5rem;
+  }
+}

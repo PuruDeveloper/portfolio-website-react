@@ -3,3 +3,25 @@
   padding: 2rem;
   color: black;
 }
+
+.experience > table {
+  width: 100%;
+}
+
+.experience > table > tr {
+  padding-top: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgb(160, 154, 154);
+}
+
+@media (max-width: 500px) {
+  .experience {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 470px) {
+  .experience {
+    margin: 0 auto;
+  }
+}
