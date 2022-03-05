@@ -1,6 +1,7 @@
 .projects {
   background-color: black;
   color: white;
+  background-color: #5cdb95;
   padding: 2rem;
   padding-top: 3rem;
 }
@@ -52,14 +53,22 @@
 
 .project-btn > a > button {
   cursor: pointer;
-  background: #000;
-  color: #fff;
+  font-weight: 700;
+  background-color: #5cdb95;
+  color: #05386b;
+  font-size: 0.9em;
   height: 40px;
   width: 100px;
   border-radius: 12px;
   margin: 4px;
   outline: none;
   border: none;
+}
+
+.project-btn > a button:hover {
+  border: 2px solid #05386b;
+  transition: color 0.3s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 1000px) {

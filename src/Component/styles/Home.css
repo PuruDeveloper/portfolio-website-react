@@ -1,6 +1,8 @@
 .home {
-  background-color: black;
+  /* background-color: black; */
+  background-color: #5cdb95;
   color: white;
+
   width: 100%;
   box-sizing: border-box;
   padding: 2rem;
@@ -9,6 +11,7 @@
 .home-top {
   margin-right: auto;
   font-size: 1.5rem;
+  color: #05386b;
 }
 
 .home-body {
@@ -36,20 +39,24 @@
   height: 500px;
   position: relative;
   top: 5rem;
+  right: 2em;
 }
 
 .home-button > button {
-  background-color: black;
+  /* background-color: black; */
+  background-color: #5cdb95;
   color: white;
   border: none;
   outline: none;
   padding: 20px;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .home-button > button:hover {
-  border: 2px solid white;
+  border: 2px solid #05386b;
   transition: color 0.3s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 1000px) {
@@ -57,9 +64,10 @@
     display: inline-block;
   }
   .home-image > img {
-    width: 200px;
+    width: 300px;
     position: relative;
     top: 5rem;
+    left: 2rem;
   }
 }
 
@@ -72,6 +80,12 @@
 @media (max-width: 500px) {
   .home {
     padding: 2em;
+  }
+  .home-image > img {
+    top: 0;
+    width: 200px;
+    height: 200px;
+    text-align: center;
   }
 }
 

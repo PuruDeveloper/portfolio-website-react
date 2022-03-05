@@ -1,5 +1,6 @@
 .skills {
   background-color: black;
+  background-color: #5cdb95;
   color: white;
   padding: 2rem;
 }
@@ -16,7 +17,7 @@
 .skill {
   width: calc(100% - 70px);
   height: 3px;
-  background-color: #545454;
+  background-color: white;
   position: relative;
 }
 .skill-text {
@@ -46,6 +47,11 @@
   z-index: 2;
 }
 
+.skill-num {
+  color: #05386b;
+  font-weight: 600;
+}
+
 .skill-fill-mask {
   width: 10%;
   position: absolute;
@@ -65,6 +71,7 @@
 }
 
 @media (max-width: 470px) {
-  .skills {
+  .skill-text {
+    color: #05386b;
   }
 }
