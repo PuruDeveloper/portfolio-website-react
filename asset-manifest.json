@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-react/static/css/main.12ad51a6.chunk.css",
+    "main.js": "/portfolio-website-react/static/js/main.ab61e319.chunk.js",
+    "main.js.map": "/portfolio-website-react/static/js/main.ab61e319.chunk.js.map",
+    "runtime-main.js": "/portfolio-website-react/static/js/runtime-main.585dfc3e.js",
+    "runtime-main.js.map": "/portfolio-website-react/static/js/runtime-main.585dfc3e.js.map",
+    "static/js/2.34981799.chunk.js": "/portfolio-website-react/static/js/2.34981799.chunk.js",
+    "static/js/2.34981799.chunk.js.map": "/portfolio-website-react/static/js/2.34981799.chunk.js.map",
+    "index.html": "/portfolio-website-react/index.html",
+    "static/css/main.12ad51a6.chunk.css.map": "/portfolio-website-react/static/css/main.12ad51a6.chunk.css.map",
+    "static/js/2.34981799.chunk.js.LICENSE.txt": "/portfolio-website-react/static/js/2.34981799.chunk.js.LICENSE.txt",
+    "static/media/project-1.ae50a0b3.png": "/portfolio-website-react/static/media/project-1.ae50a0b3.png",
+    "static/media/project-2.615eaa64.png": "/portfolio-website-react/static/media/project-2.615eaa64.png",
+    "static/media/project-3.98188be8.png": "/portfolio-website-react/static/media/project-3.98188be8.png",
+    "static/media/project-4.e353dd6a.png": "/portfolio-website-react/static/media/project-4.e353dd6a.png",
+    "static/media/purushottam-photo.589ddc41.jpg": "/portfolio-website-react/static/media/purushottam-photo.589ddc41.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.585dfc3e.js",
+    "static/js/2.34981799.chunk.js",
+    "static/css/main.12ad51a6.chunk.css",
+    "static/js/main.ab61e319.chunk.js"
+  ]
+}
