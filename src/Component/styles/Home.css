@@ -42,6 +42,7 @@
   right: 2em;
 }
 
+.form-btn,
 .home-button > button {
   /* background-color: black; */
   background-color: #5cdb95;
@@ -53,6 +54,7 @@
   border-radius: 20px;
 }
 
+.form-btn,
 .home-button > button:hover {
   border: 2px solid #05386b;
   transition: color 0.3s;
