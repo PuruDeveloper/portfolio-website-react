@@ -36,10 +36,9 @@
 
 .home-image > img {
   width: 400px;
-  height: 500px;
-  position: relative;
-  top: 5rem;
-  right: 2em;
+  height: fit-content;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 
 .form-btn,
@@ -61,15 +60,29 @@
   transition: all 0.5s;
 }
 
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
 @media (max-width: 1000px) {
   .home-body {
     display: inline-block;
   }
   .home-image > img {
     width: 300px;
-    position: relative;
-    top: 5rem;
-    left: 2rem;
   }
 }
 
