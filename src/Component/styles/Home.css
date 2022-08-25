@@ -37,8 +37,15 @@
 .home-image > img {
   width: 400px;
   height: fit-content;
-  border-top-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+  position: relative;
+  border-radius: 80px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 0 70px 63px -60px #000;
+}
+
+.home-image > img:hover {
+  filter: contrast(0.7) brightness(0.5) saturate(1.5);
+  transition-delay: 1s;
 }
 
 .form-btn,

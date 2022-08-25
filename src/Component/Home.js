@@ -32,11 +32,19 @@ function Home() {
           <span>that is exactly whay u need</span>
           <br></br>
           <div className="home-button">
-            <button> DOWNLOAD CV</button>
+            <button>
+              <a
+                href="https://drive.google.com/drive/folders/1kkt47qCc52oG_ci8i8l-Q9dTbFHahFpN?usp=sharing"
+                target="_blank"
+              >
+                View my resume
+              </a>
+            </button>
           </div>
         </div>
         <div className="home-image">
-          <img src={myImage} alt="" />
+          <img src={myImage} alt="" className="image-profile"></img>
+          <h2>Purushottam</h2>
         </div>
       </div>
       <div className="home-container">
