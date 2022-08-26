@@ -4,6 +4,11 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "./styles/Home.css";
+import leetcodeImage from "../images/socials/leetcode.jpg";
+import githubImage from "../images/socials/github.jpg";
+import codechefImage from "../images/socials/codechef.jpg";
+import linkedinImage from "../images/socials/linkedin.jpg";
+import hackerrankImage from "../images/socials/hackerrank.jpg";
 import myImage from "../images/purushottam-photo.jpg";
 import github from "../images/accounts/github.png";
 import leetcode from "../images/accounts/leetcode.png";
@@ -14,9 +19,26 @@ import codeforces from "../images/accounts/codeforces.png";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home-top">
         <h1>PM</h1>
+        <br></br>
+        <a href="https://github.com/PuruDeveloper" target="_blank">
+          <img className="socials" src={githubImage}></img>
+        </a>
+        <a href="https://leetcode.com/PMstrikes/" target="_blank">
+          <img className="socials" src={leetcodeImage}></img>
+        </a>
+
+        <a href="https://www.hackerrank.com/mpurushottam27" target="_blank">
+          <img className="socials" src={hackerrankImage}></img>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/purushottam-mishra-074383191/"
+          target="_blank"
+        >
+          <img className="socials" src={linkedinImage}></img>
+        </a>
       </div>
 
       <div className="home-body">

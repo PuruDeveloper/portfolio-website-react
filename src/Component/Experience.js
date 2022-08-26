@@ -13,9 +13,18 @@ function Experience() {
           <th>Duration</th>
         </tr>
         <tr>
+          <td>Epsilon India</td>
+          <td>Software Engineer</td>
+          <td>Jun 2022- Jul 2022</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
           <td>Olvy</td>
           <td>Frontend Engineer</td>
-          <td>May 2021- June 2021</td>
+          <td>May 2021- Jun 2021</td>
         </tr>
       </table>
     </div>
