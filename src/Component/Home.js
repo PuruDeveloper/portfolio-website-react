@@ -27,9 +27,15 @@ function Home() {
             <h1>Mishra</h1>
             <br></br>
           </div>
-          <span>A full stack engineer</span>
-          <br />
-          <span>that is exactly whay u need</span>
+          <h2 className="title">
+            <span>I am a Full Stack Engineer</span>
+            <br></br>
+            <span>Developer</span>
+            <br></br>
+            <span>Software Engineer</span>
+            <br></br>
+            <span>Student</span>
+          </h2>
           <br></br>
           <div className="home-button">
             <button>
