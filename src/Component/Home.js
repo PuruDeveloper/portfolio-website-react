@@ -44,7 +44,6 @@ function Home() {
         </div>
         <div className="home-image">
           <img src={myImage} alt="" className="image-profile"></img>
-          <h2>Purushottam</h2>
         </div>
       </div>
       <div className="home-container">

@@ -38,8 +38,7 @@
   width: 400px;
   height: fit-content;
   position: relative;
-  border-radius: 80px;
-  border-bottom-left-radius: 0px;
+  border-radius: 15px;
   box-shadow: 0 70px 63px -60px #000;
 }
 
@@ -94,6 +93,10 @@
 }
 
 @media (max-width: 575px) {
+  .home-image > img {
+    width: 350px;
+    height: fit-content;
+  }
   .big-font {
     font-size: 2rem;
   }
