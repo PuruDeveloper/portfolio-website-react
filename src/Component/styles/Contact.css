@@ -3,24 +3,26 @@
 } */
 
 .contact {
-  background-color: white;
+  /* background-color: white; */
   padding: 2rem;
-  color: black;
+  box-sizing: border-box;
+  /* color: black; */
 }
 
-.container {
+.contact-container {
   text-align: center;
+  border: 1px solid #06354a;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .form {
-  background: #5cbd96;
-  padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
-  background-color: #15c07c;
   display: flex;
   flex-direction: column;
+  border: 1px solid #06354a;
 }
 
 form h3 {
@@ -29,20 +31,27 @@ form h3 {
   margin-bottom: 20px;
 }
 
+form label {
+  float: left;
+  padding-left: 20px;
+}
+
 form input,
 form textarea {
-  width: 50%;
-  border: 0;
+  width: 80%;
+  border: none;
+  outline: none;
   margin: 10px 0;
   padding: 20px;
   outline: none;
   background-color: rgb(237, 237, 208);
+  border-radius: 8px;
 }
 
 .button {
   padding: 15px;
-  background: #05386b;
-  color: white;
+  background: #654ea3;
+  color: #eaafc8;
   font-size: 18px;
   border: 0;
   outline: none;

@@ -1,7 +1,7 @@
 .skills {
-  background-color: black;
+  /* background-color: black;
   background-color: #5cdb95;
-  color: white;
+  color: white; */
   padding: 2rem;
 }
 
@@ -21,7 +21,7 @@
   position: relative;
 }
 .skill-text {
-  color: #00d084;
+  color: #06354a;
   font-size: 12px;
   line-height: 100%;
   font-weight: 600;
@@ -48,7 +48,7 @@
 }
 
 .skill-num {
-  color: #05386b;
+  color: #06354a;
   font-weight: 600;
 }
 
@@ -59,7 +59,6 @@
   left: 0;
   height: 60px;
   transition: width 0.7s;
-  background-color: #000;
   z-index: 1;
   max-width: 99%;
 }

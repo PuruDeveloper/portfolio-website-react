@@ -29,17 +29,17 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <h1 className="medium-font">Contact</h1>
-      <div className="container">
+      <div className="contact-container">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
+          <label>Your Name</label>
           <br></br>
           <input type="text" name="user_name" />
           <br></br>
-          <label>Email</label>
+          <label>Email id</label>
           <br></br>
           <input type="email" name="user_email" />
           <br></br>
-          <label>Message</label>
+          <label>Your Message</label>
           <br></br>
           <textarea name="message" />
           <br></br>

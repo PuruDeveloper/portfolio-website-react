@@ -24,19 +24,31 @@ function Home() {
         <h1>PM</h1>
         <br></br>
         <a href="https://github.com/PuruDeveloper" target="_blank">
+          <button title="Github" className="social-logo">
+            <i className="fa-brands fa-github"></i>
+          </button>
           <img className="socials" src={githubImage}></img>
         </a>
         <a href="https://leetcode.com/PMstrikes/" target="_blank">
+          <button title="Leetcode" className="social-logo fa-leetcode">
+            Le
+          </button>
           <img className="socials" src={leetcodeImage}></img>
         </a>
 
         <a href="https://www.hackerrank.com/mpurushottam27" target="_blank">
+          <button title="Hackerrank" className="social-logo">
+            <i className="fa-brands fa-hackerrank"></i>
+          </button>
           <img className="socials" src={hackerrankImage}></img>
         </a>
         <a
           href="https://www.linkedin.com/in/purushottam-mishra-074383191/"
           target="_blank"
         >
+          <button title="LinkedIn" className="social-logo">
+            <i className="fa-brands fa-linkedin-in"></i>
+          </button>
           <img className="socials" src={linkedinImage}></img>
         </a>
       </div>

@@ -1,15 +1,23 @@
 .experience {
-  background-color: white;
+  /* background-color: white; */
   padding: 2rem;
-  color: black;
+  /* color: black; */
 }
 
 .experience > table {
   width: 100%;
 }
 
+th {
+  color: #06354a;
+}
+
+td {
+  color: #ff416c;
+}
 .experience > table > tr {
   padding-top: 12px;
+
   text-align: center;
   border-bottom: 1px solid rgb(160, 154, 154);
 }

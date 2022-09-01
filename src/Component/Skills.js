@@ -19,6 +19,16 @@ function Skills() {
         </div>
         <div className="skill-holder">
           <div className="skill">
+            <div className="skill-text">Vue.js</div>
+            <div
+              className="skill-fill animation-done"
+              style={{ width: "30%" }}
+            ></div>
+          </div>
+          <div className="skill-num">30%</div>
+        </div>
+        <div className="skill-holder">
+          <div className="skill">
             <div className="skill-text">JavaScript</div>
             <div
               className="skill-fill animation-done"
@@ -66,6 +76,26 @@ function Skills() {
             ></div>
           </div>
           <div className="skill-num">20%</div>
+        </div>
+        <div className="skill-holder">
+          <div className="skill">
+            <div className="skill-text">Redux</div>
+            <div
+              className="skill-fill animation-done"
+              style={{ width: "60%" }}
+            ></div>
+          </div>
+          <div className="skill-num">60%</div>
+        </div>
+        <div className="skill-holder">
+          <div className="skill">
+            <div className="skill-text">Problem Solving</div>
+            <div
+              className="skill-fill animation-done"
+              style={{ width: "50%" }}
+            ></div>
+          </div>
+          <div className="skill-num">50%</div>
         </div>
       </div>
     </div>

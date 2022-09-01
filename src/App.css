@@ -1,3 +1,6 @@
+body {
+  background-color: #cc95c0;
+}
 .App {
   /* background: #c8e8e5;
   background: linear-gradient(0deg, #c8e8e5 0%, #c0c8fc 100%); */
@@ -5,9 +8,13 @@
   min-height: 100vh;
   position: relative;
   width: 100%;
-  background-color: white;
-  color: #fff;
+  background-color: #cc95c0;
+  color: #e55d87;
   font-family: "Inter", sans-serif;
+}
+
+::root {
+  --pink: #e55d87;
 }
 
 ul,
