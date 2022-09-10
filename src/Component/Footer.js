@@ -9,7 +9,7 @@ function Footer() {
         href="https://www.linkedin.com/in/purushottam-mishra-074383191/"
         target="_blank"
       >
-        Purushottam Mishra
+        @Purushottam_Mishra
       </a>
     </div>
   );

@@ -7,11 +7,13 @@
   padding: 2rem;
   box-sizing: border-box;
   /* color: black; */
+  color: #7aa1d2;
 }
 
 .contact-container {
   text-align: center;
   border: 1px solid #06354a;
+  border-radius: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -34,6 +36,7 @@ form h3 {
 form label {
   float: left;
   padding-left: 20px;
+  color: #00416a;
 }
 
 form input,
@@ -44,14 +47,14 @@ form textarea {
   margin: 10px 0;
   padding: 20px;
   outline: none;
-  background-color: rgb(237, 237, 208);
+  background-color: #fcffdc;
   border-radius: 8px;
 }
 
-.button {
+button {
   padding: 15px;
-  background: #654ea3;
-  color: #eaafc8;
+  background: #7aa1d2;
+  color: white;
   font-size: 18px;
   border: 0;
   outline: none;
@@ -59,4 +62,5 @@ form textarea {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+  box-shadow: 0 70px 63px -60px #000;
 }

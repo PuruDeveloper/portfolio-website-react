@@ -2,6 +2,7 @@
   /* background-color: white; */
   padding: 2rem;
   /* color: black; */
+  color: #7aa1d2;
 }
 
 .experience > table {
@@ -13,7 +14,7 @@ th {
 }
 
 td {
-  color: #ff416c;
+  color: #00416a;
 }
 .experience > table > tr {
   padding-top: 12px;

@@ -4,6 +4,7 @@
   background-color: #5cdb95; */
   padding: 2rem;
   padding-top: 3rem;
+  color: #7aa1d2;
 }
 
 .medium-font {
@@ -44,6 +45,7 @@
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 300;
+  color: #00416a;
 }
 
 .project-info {
@@ -52,17 +54,17 @@
 }
 
 .project-btn > a > button {
-  cursor: pointer;
-  font-weight: 700;
-  background: #654ea3;
-  color: #eaafc8;
-  font-size: 0.9em;
-  height: 40px;
-  width: 100px;
-  border-radius: 12px;
-  margin: 4px;
+  padding: 15px;
+  background: #7aa1d2;
+  color: white;
+  font-size: 18px;
+  border: 0;
   outline: none;
-  border: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  box-shadow: 0 70px 63px -60px #000;
 }
 
 .project-btn > a button:hover {

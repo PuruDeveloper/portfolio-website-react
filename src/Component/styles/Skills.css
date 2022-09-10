@@ -3,6 +3,7 @@
   background-color: #5cdb95;
   color: white; */
   padding: 2rem;
+  color: #7aa1d2;
 }
 
 .skill-holder {
@@ -17,11 +18,11 @@
 .skill {
   width: calc(100% - 70px);
   height: 3px;
-  background-color: white;
+  background-color: #7aa1d2;
   position: relative;
 }
 .skill-text {
-  color: #06354a;
+  color: #00416a;
   font-size: 12px;
   line-height: 100%;
   font-weight: 600;
@@ -42,7 +43,7 @@
   width: 10%;
   height: 60px;
   transition: width 0.7s;
-  background-color: #fff;
+  background-color: #7aa1d2;
   max-width: 97%;
   z-index: 2;
 }

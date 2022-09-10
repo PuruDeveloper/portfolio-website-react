@@ -1,5 +1,5 @@
 body {
-  background-color: #cc95c0;
+  background-color: var(--background);
 }
 .App {
   /* background: #c8e8e5;
@@ -8,13 +8,21 @@ body {
   min-height: 100vh;
   position: relative;
   width: 100%;
-  background-color: #cc95c0;
-  color: #e55d87;
   font-family: "Inter", sans-serif;
 }
+a {
+  color: #cf2e2e;
+}
+
 
 ::root {
+  --background: #e4e5e6;
   --pink: #e55d87;
+  --dark-blue: #00416a;
+  --light-blue: #7aa1d2;
+  --light-yellow: #dbd4b4;
+  --light-orange: #edde5d;
+  --dark-orange: #f09819;
 }
 
 ul,

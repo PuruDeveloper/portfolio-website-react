@@ -9,7 +9,7 @@ import githubImage from "../images/socials/github.jpg";
 import codechefImage from "../images/socials/codechef.jpg";
 import linkedinImage from "../images/socials/linkedin.jpg";
 import hackerrankImage from "../images/socials/hackerrank.jpg";
-import myImage from "../images/purushottam-photo.jpg";
+import myImage from "../images/myImage.jpg";
 import github from "../images/accounts/github.png";
 import leetcode from "../images/accounts/leetcode.png";
 import linkedin from "../images/accounts/linkedin.png";
@@ -27,20 +27,17 @@ function Home() {
           <button title="Github" className="social-logo">
             <i className="fa-brands fa-github"></i>
           </button>
-          <img className="socials" src={githubImage}></img>
         </a>
         <a href="https://leetcode.com/PMstrikes/" target="_blank">
           <button title="Leetcode" className="social-logo fa-leetcode">
-            Le
+            <i>Le</i>
           </button>
-          <img className="socials" src={leetcodeImage}></img>
         </a>
 
         <a href="https://www.hackerrank.com/mpurushottam27" target="_blank">
           <button title="Hackerrank" className="social-logo">
             <i className="fa-brands fa-hackerrank"></i>
           </button>
-          <img className="socials" src={hackerrankImage}></img>
         </a>
         <a
           href="https://www.linkedin.com/in/purushottam-mishra-074383191/"
@@ -49,7 +46,6 @@ function Home() {
           <button title="LinkedIn" className="social-logo">
             <i className="fa-brands fa-linkedin-in"></i>
           </button>
-          <img className="socials" src={linkedinImage}></img>
         </a>
       </div>
 
@@ -62,24 +58,23 @@ function Home() {
             <br></br>
           </div>
           <h2 className="title">
-            <span>I am a Full Stack Engineer</span>
+            <span className="quote-1">I am a Full Stack Engineer</span>
             <br></br>
-            <span>Developer</span>
+            <span className="quote-2">Developer</span>
             <br></br>
-            <span>Software Engineer</span>
+            <span className="quote-3">Software Engineer</span>
             <br></br>
-            <span>Student</span>
+
+            <span className="quote-4">Student</span>
           </h2>
           <br></br>
           <div className="home-button">
-            <button>
-              <a
-                href="https://drive.google.com/drive/folders/1kkt47qCc52oG_ci8i8l-Q9dTbFHahFpN?usp=sharing"
-                target="_blank"
-              >
-                View my resume
-              </a>
-            </button>
+            <a
+              href="https://drive.google.com/drive/folders/1kkt47qCc52oG_ci8i8l-Q9dTbFHahFpN?usp=sharing"
+              target="_blank"
+            >
+              <button>My CV</button>
+            </a>
           </div>
         </div>
         <div className="home-image">
