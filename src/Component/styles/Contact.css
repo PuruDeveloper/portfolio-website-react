@@ -64,3 +64,11 @@ button {
   border-radius: 30px;
   box-shadow: 0 70px 63px -60px #000;
 }
+
+@media (min-width: 500px) {
+  .flex-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

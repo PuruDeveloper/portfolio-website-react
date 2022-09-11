@@ -31,17 +31,20 @@ function Contact() {
       <h1 className="medium-font">Contact</h1>
       <div className="contact-container">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Your Name</label>
+          <span className="flex-form">
+            <label>Your Name</label>
+            <input type="text" name="user_name" />
+          </span>
           <br></br>
-          <input type="text" name="user_name" />
+          <span className="flex-form">
+            <label>Email id</label>
+            <input type="email" name="user_email" />
+          </span>
           <br></br>
-          <label>Email id</label>
-          <br></br>
-          <input type="email" name="user_email" />
-          <br></br>
-          <label>Your Message</label>
-          <br></br>
-          <textarea name="message" />
+          <span className="flex-form">
+            <label>Your Message</label>
+            <textarea name="message" />
+          </span>
           <br></br>
           <button type="submit">Send</button>
         </form>
