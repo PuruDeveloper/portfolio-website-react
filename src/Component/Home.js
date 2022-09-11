@@ -58,11 +58,11 @@ function Home() {
             <br></br>
           </div>
           <h2 className="title">
-            <span className="quote-1">I am a Full Stack Engineer</span>
+            <span className="quote-1">Software Developer</span>
             <br></br>
-            <span className="quote-2">Developer</span>
+            <span className="quote-2">Frontend Engineer</span>
             <br></br>
-            <span className="quote-3">Software Engineer</span>
+            <span className="quote-3">Backend Engineer</span>
             <br></br>
 
             <span className="quote-4">Student</span>

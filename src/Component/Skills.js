@@ -12,10 +12,10 @@ function Skills() {
             <div className="skill-text">ReactJS</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "80%" }}
+              style={{ width: "65%" }}
             ></div>
           </div>
-          <div className="skill-num">80%</div>
+          <div className="skill-num">65%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
@@ -32,60 +32,60 @@ function Skills() {
             <div className="skill-text">JavaScript</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "90%" }}
+              style={{ width: "48%" }}
             ></div>
           </div>
-          <div className="skill-num">90%</div>
+          <div className="skill-num">48%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
             <div className="skill-text">Node JS</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "60%" }}
+              style={{ width: "45%" }}
             ></div>
           </div>
-          <div className="skill-num">60%</div>
+          <div className="skill-num">45%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
             <div className="skill-text">MongoDB</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "50%" }}
+              style={{ width: "42%" }}
             ></div>
           </div>
-          <div className="skill-num">50%</div>
+          <div className="skill-num">42%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
             <div className="skill-text">Express</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "60%" }}
+              style={{ width: "38%" }}
             ></div>
           </div>
-          <div className="skill-num">60%</div>
+          <div className="skill-num">38%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
             <div className="skill-text">Java</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "20%" }}
+              style={{ width: "23%" }}
             ></div>
           </div>
-          <div className="skill-num">20%</div>
+          <div className="skill-num">23%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
             <div className="skill-text">Redux</div>
             <div
               className="skill-fill animation-done"
-              style={{ width: "60%" }}
+              style={{ width: "30%" }}
             ></div>
           </div>
-          <div className="skill-num">60%</div>
+          <div className="skill-num">30%</div>
         </div>
         <div className="skill-holder">
           <div className="skill">
